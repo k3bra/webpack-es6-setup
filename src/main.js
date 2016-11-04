@@ -1,4 +1,6 @@
-const test = 123;
 
-[1,2,3].map(x => (console.log(x)))
+const test = 123;
+import $ from "jquery";
+
+console.log($('body').html());
 console.log(test);
