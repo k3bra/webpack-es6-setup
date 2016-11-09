@@ -7,7 +7,9 @@ module.exports = {
     'arrows': './src/arrows.js',
     'default_parameters': './src/default_parameters.js',
     'operators': './src/operators.js',
-    'template': './src/template.js'
+    'template': './src/template.js',
+    'classes': './src/classes.js',
+    'modules': './src/modules.js',
   },
   output: {
     path: path.join(__dirname, 'build'),
