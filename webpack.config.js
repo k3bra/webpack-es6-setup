@@ -10,6 +10,9 @@ module.exports = {
     'template': './src/template.js',
     'classes': './src/classes.js',
     'modules': './src/modules.js',
+    'find': './src/find.js',
+    'string': './src/string.js',
+    'sets': './src/sets.js',
   },
   output: {
     path: path.join(__dirname, 'build'),
