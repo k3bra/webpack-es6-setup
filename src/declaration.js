@@ -1,6 +1,5 @@
 
-//hoisting vs blocks | const
-
+//hoisting vs blocks | const | ReferenceError
 
 function isSoccerMatch(bool) {
   if (bool) {
@@ -11,4 +10,4 @@ function isSoccerMatch(bool) {
   }
 }
 
-isSoccerMatch(false);
+isSoccerMatch(false)

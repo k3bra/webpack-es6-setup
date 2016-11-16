@@ -1,5 +1,5 @@
 
-//static (.) , syntax sugar // operatores parameters
+//stati (.) c , syntax sugar // operatores
 
 class User {
 
@@ -11,7 +11,7 @@ class User {
   getUser() {
     return `
       Username: ${this.username}
-      Name: ${this.name}`;
+      Name:${this.name}`;
   }
 }
 
