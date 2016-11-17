@@ -1,3 +1,4 @@
 let set = new Set(['one', 'two', 'one']);
+console.log(set);
 
-console.log([...set]);
+let setArray = [...set];

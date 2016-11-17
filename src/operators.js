@@ -1,19 +1,15 @@
 
 //rest
-function rest(...matches) {
-  console.log(matches);
+function rest(...matchIds) {
+  return matchIds;
 }
 
-rest(10, 20, 30);
-
-
+console.log(rest(9955705, 9955706, 9955707));
 
 //spread
-
 function spreadSum(x, y) {
     return x + y;
 }
 
-let nums = [1, 2];
-
-console.log(spreadSum(...nums));
+let matchIds = [9955705, 9955706];
+console.log(spreadSum(...matchIds));

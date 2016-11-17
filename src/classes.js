@@ -11,7 +11,7 @@ class User {
   getUser() {
     return `
       Username: ${this.username}
-      Name:${this.name}`;
+      Name: ${this.name}`;
   }
 }
 

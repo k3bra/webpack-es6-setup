@@ -54,6 +54,10 @@
 
 	var test = 123;
 
+
+	console.log((0, _jquery2.default)('body').html());
+	console.log(test);
+
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {

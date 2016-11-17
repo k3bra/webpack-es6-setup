@@ -2,9 +2,10 @@
 //def par function
 
 
-function applyDiscount(cost) {
-  discount = discount || 0.5;
-  console.log(cost - (cost * discount));
+function applyDiscoutToPackage(cost) {
+  let discount = discount || 0.5;
+  let finalCost = cost - (cost * discount);
+  console.log(finalCost);
 }
 
-applyDiscount(100);
+applyDiscoutToPackage(100);

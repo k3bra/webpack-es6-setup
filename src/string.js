@@ -1,3 +1,2 @@
 // startsWith endsWith includes repeat
-
-let string = 'Hello World';
+let theTruth = 'SMP > DEI';
