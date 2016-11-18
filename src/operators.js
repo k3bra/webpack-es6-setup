@@ -12,4 +12,4 @@ function spreadSum(x, y) {
 }
 
 let matchIds = [9955705, 9955706];
-console.log(spreadSum(...matchIds));
+console.log(spreadSum(...match));
